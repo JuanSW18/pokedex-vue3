@@ -1,0 +1,25 @@
+/* General styles */
+body {
+    overflow: hidden;
+}
+
+#app {
+    font-family: Lato;
+    text-align: center;
+}
+
+.star-default {
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    background-repeat: no-repeat;
+    background-image: url('../assets/star-default.svg');
+}
+
+.star-yellow {
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    background-repeat: no-repeat;
+    background-image: url('../assets/star-yellow.svg');
+}

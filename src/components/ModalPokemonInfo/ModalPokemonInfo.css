@@ -1,0 +1,29 @@
+.bg-modal {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/bg-modal.png');
+}
+
+.showModal {
+  display: block;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.close-btn-div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.close-btn-div>img{
+  height: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .modal-dialog {
+      width: 80% !important;
+      margin: auto !important;
+  }
+}
